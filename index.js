@@ -13,12 +13,12 @@ function whisper(string) {
    console.log("hello");
  }
 function sayHiToGrandma(string) {
-  if(string.toLowerCase){
+  if(string.toUpperCase){
     return "I can't hear you!";
-  } else if(string.toUpperCase){
+  } else if(string.toLowerCase){
    return "YES INDEED!";
  }
-   else {
+   else{
      return "I love you, too";
   }
 }
